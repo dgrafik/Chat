@@ -8,6 +8,8 @@
 
 import UIKit
 import GoogleSignIn
+import FirebaseAuth
+import FirebaseDatabase
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate {
 
@@ -24,8 +26,23 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
         GIDSignIn.sharedInstance().uiDelegate = self
         GIDSignIn.sharedInstance().delegate = self
         
-
-        // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        FIRAuth.auth()?.addAuthStateDidChangeListener({ (auth: FIRAuth, user: //autologin
+            FIRUser?) in
+            
+            if user != nil{
+                print(user)
+                Helper.helper.switchToNavigationViewController()
+            }else{
+                print("unauto")
+            }
+        
+        })
+        
     }
 
     
@@ -39,6 +56,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
     }
     @IBAction func logGoogleDidTaped(sender: AnyObject) {
         print("Gogole")
+        
         GIDSignIn.sharedInstance().signIn()
     }
     
@@ -53,14 +71,6 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDeleg
 
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+ 
 
 }

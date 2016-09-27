@@ -9,6 +9,8 @@ target 'Chat' do
   pod 'GoogleSignIn'
   pod 'JSQMessagesViewController'
   pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'SDWebImage'
 
   # Pods for Chat
 

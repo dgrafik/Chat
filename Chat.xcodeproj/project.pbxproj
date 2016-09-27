@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251A19DE1D9B21C200A5E674 /* deadPool.png in Resources */ = {isa = PBXBuildFile; fileRef = 251A19DD1D9B21C200A5E674 /* deadPool.png */; };
+		251A19E01D9B2A6600A5E674 /* Plik_000.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 251A19DF1D9B2A6600A5E674 /* Plik_000.jpeg */; };
+		251A19E51D9B2A9E00A5E674 /* backgroundPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 251A19E21D9B2A9E00A5E674 /* backgroundPhoto.png */; };
+		251A19E61D9B2A9E00A5E674 /* googleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 251A19E31D9B2A9E00A5E674 /* googleButton.png */; };
+		251A19E71D9B2A9E00A5E674 /* profileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 251A19E41D9B2A9E00A5E674 /* profileImage.png */; };
 		259C328F1D95E0040083AC1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 259C328E1D95E0040083AC1B /* GoogleService-Info.plist */; };
 		259C32921D95E4460083AC1B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C32911D95E4460083AC1B /* Helper.swift */; };
 		25B0DA951D9318D90075C2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0DA941D9318D90075C2E4 /* AppDelegate.swift */; };
 		25B0DA9A1D9318D90075C2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DA981D9318D90075C2E4 /* Main.storyboard */; };
 		25B0DA9C1D9318D90075C2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DA9B1D9318D90075C2E4 /* Assets.xcassets */; };
 		25B0DA9F1D9318D90075C2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DA9D1D9318D90075C2E4 /* LaunchScreen.storyboard */; };
-		25B0DAB11D931FCA0075C2E4 /* backgroundPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DAAC1D931FCA0075C2E4 /* backgroundPhoto.png */; };
-		25B0DAB21D931FCA0075C2E4 /* dummyUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DAAD1D931FCA0075C2E4 /* dummyUser.png */; };
-		25B0DAB31D931FCA0075C2E4 /* googleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DAAE1D931FCA0075C2E4 /* googleButton.png */; };
-		25B0DAB41D931FCA0075C2E4 /* OrLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DAAF1D931FCA0075C2E4 /* OrLine.png */; };
-		25B0DAB51D931FCA0075C2E4 /* profileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B0DAB01D931FCA0075C2E4 /* profileImage.png */; };
 		25B0DAB71D9324130075C2E4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0DAB61D9324130075C2E4 /* ChatViewController.swift */; };
 		25B0DAB91D93252D0075C2E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0DAB81D93252D0075C2E4 /* LoginViewController.swift */; };
 		575BA28CE0FA70AC707CA37D /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CC1ABA7F056B552221776F /* Pods_Chat.framework */; };
@@ -25,6 +25,11 @@
 
 /* Begin PBXFileReference section */
 		08CC1ABA7F056B552221776F /* Pods_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251A19DD1D9B21C200A5E674 /* deadPool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deadPool.png; sourceTree = "<group>"; };
+		251A19DF1D9B2A6600A5E674 /* Plik_000.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plik_000.jpeg; sourceTree = "<group>"; };
+		251A19E21D9B2A9E00A5E674 /* backgroundPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundPhoto.png; path = "Resources-GoChat/backgroundPhoto.png"; sourceTree = "<group>"; };
+		251A19E31D9B2A9E00A5E674 /* googleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = googleButton.png; path = "Resources-GoChat/googleButton.png"; sourceTree = "<group>"; };
+		251A19E41D9B2A9E00A5E674 /* profileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profileImage.png; path = "Resources-GoChat/profileImage.png"; sourceTree = "<group>"; };
 		259C328E1D95E0040083AC1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		259C32901D95E2CB0083AC1B /* Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chat.entitlements; sourceTree = "<group>"; };
 		259C32911D95E4460083AC1B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -34,11 +39,6 @@
 		25B0DA9B1D9318D90075C2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B0DA9E1D9318D90075C2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B0DAA01D9318D90075C2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25B0DAAC1D931FCA0075C2E4 /* backgroundPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundPhoto.png; path = "../../../../Downloads/Resources-GoChat/backgroundPhoto.png"; sourceTree = "<group>"; };
-		25B0DAAD1D931FCA0075C2E4 /* dummyUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dummyUser.png; path = "../../../../Downloads/Resources-GoChat/dummyUser.png"; sourceTree = "<group>"; };
-		25B0DAAE1D931FCA0075C2E4 /* googleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = googleButton.png; path = "../../../../Downloads/Resources-GoChat/googleButton.png"; sourceTree = "<group>"; };
-		25B0DAAF1D931FCA0075C2E4 /* OrLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OrLine.png; path = "../../../../Downloads/Resources-GoChat/OrLine.png"; sourceTree = "<group>"; };
-		25B0DAB01D931FCA0075C2E4 /* profileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profileImage.png; path = "../../../../Downloads/Resources-GoChat/profileImage.png"; sourceTree = "<group>"; };
 		25B0DAB61D9324130075C2E4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = SOURCE_ROOT; };
 		25B0DAB81D93252D0075C2E4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		7D3E2E935E7AF73F2EC0886D /* Pods-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,12 +87,12 @@
 				25B0DA9B1D9318D90075C2E4 /* Assets.xcassets */,
 				25B0DA9D1D9318D90075C2E4 /* LaunchScreen.storyboard */,
 				25B0DAA01D9318D90075C2E4 /* Info.plist */,
+				251A19DF1D9B2A6600A5E674 /* Plik_000.jpeg */,
+				251A19E21D9B2A9E00A5E674 /* backgroundPhoto.png */,
+				251A19E31D9B2A9E00A5E674 /* googleButton.png */,
+				251A19E41D9B2A9E00A5E674 /* profileImage.png */,
+				251A19DD1D9B21C200A5E674 /* deadPool.png */,
 				259C328E1D95E0040083AC1B /* GoogleService-Info.plist */,
-				25B0DAAC1D931FCA0075C2E4 /* backgroundPhoto.png */,
-				25B0DAAD1D931FCA0075C2E4 /* dummyUser.png */,
-				25B0DAAE1D931FCA0075C2E4 /* googleButton.png */,
-				25B0DAAF1D931FCA0075C2E4 /* OrLine.png */,
-				25B0DAB01D931FCA0075C2E4 /* profileImage.png */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -182,15 +182,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B0DAB11D931FCA0075C2E4 /* backgroundPhoto.png in Resources */,
+				251A19E01D9B2A6600A5E674 /* Plik_000.jpeg in Resources */,
 				25B0DA9F1D9318D90075C2E4 /* LaunchScreen.storyboard in Resources */,
 				259C328F1D95E0040083AC1B /* GoogleService-Info.plist in Resources */,
-				25B0DAB31D931FCA0075C2E4 /* googleButton.png in Resources */,
 				25B0DA9C1D9318D90075C2E4 /* Assets.xcassets in Resources */,
+				251A19E61D9B2A9E00A5E674 /* googleButton.png in Resources */,
+				251A19E51D9B2A9E00A5E674 /* backgroundPhoto.png in Resources */,
 				25B0DA9A1D9318D90075C2E4 /* Main.storyboard in Resources */,
-				25B0DAB21D931FCA0075C2E4 /* dummyUser.png in Resources */,
-				25B0DAB41D931FCA0075C2E4 /* OrLine.png in Resources */,
-				25B0DAB51D931FCA0075C2E4 /* profileImage.png in Resources */,
+				251A19DE1D9B21C200A5E674 /* deadPool.png in Resources */,
+				251A19E71D9B2A9E00A5E674 /* profileImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

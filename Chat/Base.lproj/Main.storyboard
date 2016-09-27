@@ -19,11 +19,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="cst-fw-kTI"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Plik_000.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cst-fw-kTI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="LHj-3R-gep"/>
+                                    <constraint firstAttribute="height" constant="736" id="MFc-3M-6p9"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6b-dF-Akd">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="VFE-RW-kgc"/>
-                                    <constraint firstAttribute="width" constant="40" id="iqr-1T-Huo"/>
+                                    <constraint firstAttribute="height" constant="40" id="Nbk-K5-lpg"/>
+                                    <constraint firstAttribute="width" constant="40" id="cdt-xd-WgA"/>
                                 </constraints>
                                 <state key="normal" image="googleButton.png">
                                     <color key="titleColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,8 +39,8 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOd-U8-SNi">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="GHj-bg-ntz"/>
-                                    <constraint firstAttribute="width" constant="230" id="nO0-e3-oSQ"/>
+                                    <constraint firstAttribute="width" constant="274" id="50N-l2-Z8H"/>
+                                    <constraint firstAttribute="height" constant="36" id="mgo-uG-5yh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login Anonymously">
@@ -48,14 +53,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iOd-U8-SNi" firstAttribute="top" secondItem="Z8N-li-wsh" secondAttribute="bottom" constant="260" id="3n0-gF-M2H"/>
+                            <constraint firstItem="m6b-dF-Akd" firstAttribute="centerX" secondItem="nHN-7E-azM" secondAttribute="centerX" id="34h-RV-Bhb"/>
                             <constraint firstItem="dLa-vD-2Fb" firstAttribute="top" secondItem="cst-fw-kTI" secondAttribute="bottom" id="8di-5J-TaI"/>
-                            <constraint firstItem="dLa-vD-2Fb" firstAttribute="top" secondItem="m6b-dF-Akd" secondAttribute="bottom" constant="271" id="HON-rg-P7j"/>
+                            <constraint firstItem="m6b-dF-Akd" firstAttribute="top" secondItem="iOd-U8-SNi" secondAttribute="bottom" constant="28" id="Fz3-nE-FOA"/>
+                            <constraint firstItem="iOd-U8-SNi" firstAttribute="centerX" secondItem="nHN-7E-azM" secondAttribute="centerX" id="H8b-wa-E89"/>
                             <constraint firstItem="cst-fw-kTI" firstAttribute="leading" secondItem="nHN-7E-azM" secondAttribute="leading" id="SaL-x0-lsA"/>
                             <constraint firstAttribute="trailing" secondItem="cst-fw-kTI" secondAttribute="trailing" id="VQk-u3-nGV"/>
-                            <constraint firstItem="m6b-dF-Akd" firstAttribute="centerX" secondItem="nHN-7E-azM" secondAttribute="centerX" id="cKK-Wz-Jhi"/>
-                            <constraint firstItem="iOd-U8-SNi" firstAttribute="centerX" secondItem="nHN-7E-azM" secondAttribute="centerX" id="knl-Uv-sMM"/>
                             <constraint firstItem="cst-fw-kTI" firstAttribute="top" secondItem="nHN-7E-azM" secondAttribute="top" id="lf3-Q2-y62"/>
+                            <constraint firstItem="dLa-vD-2Fb" firstAttribute="top" secondItem="m6b-dF-Akd" secondAttribute="bottom" constant="110" id="nBS-JX-j9B"/>
+                            <constraint firstItem="cst-fw-kTI" firstAttribute="centerX" secondItem="nHN-7E-azM" secondAttribute="centerX" id="xZX-IZ-9M2"/>
                             <constraint firstItem="cst-fw-kTI" firstAttribute="top" secondItem="nHN-7E-azM" secondAttribute="topMargin" id="zCU-vd-wY3"/>
                         </constraints>
                     </view>
@@ -65,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2c4-e8-dax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="97.601199400299862"/>
+            <point key="canvasLocation" x="50.724637681159422" y="97.010869565217405"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="1NZ-j9-Ufc">
@@ -98,7 +104,7 @@
             <objects>
                 <navigationController storyboardIdentifier="NavigationVC" automaticallyAdjustsScrollViewInsets="NO" id="QRG-bt-rTc" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v2Z-Hr-t6m">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="v2Z-Hr-t6m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.40781933069229126" green="0.40781933069229126" blue="0.40781933069229126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -114,7 +120,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backgroundPhoto.png" width="1125" height="2001"/>
+        <image name="Plik_000.jpeg" width="3264" height="2448"/>
         <image name="googleButton.png" width="120" height="120"/>
     </resources>
 </document>
